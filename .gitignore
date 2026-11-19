@@ -1,10 +1,19 @@
+# не публикуются
+/hw1/
+/hw2/
+
+# python
 .venv/
 __pycache__/
 *.py[cod]
+
+# локальные настройки
 .env
 .env.*
 !.env.example
-*.duckdb
-*.duckdb.wal
+
+# данные и временные базы
 it_vacancies_2024.csv
 hh_1000/
+*.duckdb
+*.duckdb.wal
